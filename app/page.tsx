@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import Image from "next/image";
 // import DashboardOverview from "./component/Overview"
 import PracticalsPage from "./component/Practicals"
@@ -17,3 +18,17 @@ export default function Home() {
 
 
 
+=======
+import Navbar from "@/app/components/Navbar";
+import Homepage from "@/app/components/Homepage";
+
+
+export default function Home(){
+  return(
+    <div>
+      <Navbar/>
+      <Homepage/>
+    </div>
+  );
+}
+>>>>>>> Stashed changes
