@@ -22,7 +22,7 @@ const Landingpage = () => {
                         </h1>
                         
                         <p className="text-lg im:text-2xl nh:text-2xl md:text-2xl lg:text-[28px] font-nunito textbg-[#644877] mb-8">
-                        At Ubora CBC, we're revolutionizing<br/> education with our cutting-edge tech<br/> platform designed specifically for<br/> Competence Based Curriculum (CBC)</p>
+                        At Ubora CBC, we're revolutionizing<br/> education with our cutting-edge tech<br/> platform designed specifically for<br/> Competence Based Curriculum (CBC).</p>
                         <button className="im:text-bold im:px-20 im:py-5 sd:mb-20 italic font-type-bold bg-[#644877] hover:bg-[#503b64] font-semibold text-white py-4 md:py-3 lg:py-[15px] px-8 md:px-8 lg:px-[60px] text-sm md:text-md lg:text-lg rounded-[30px] mb-15 shadow-md ">
                             Signup For Free
                         </button>
