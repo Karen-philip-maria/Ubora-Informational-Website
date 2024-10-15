@@ -12,7 +12,7 @@ const Landingpage = () => {
                  lg:space-y-0 lg:space-x-4 lg:mt-28 nh:mt-4">
                     <div className="w-full lg:w-1/2 text-left lg:text-left">
                         <div className="mb-8 lg:hidden">
-                        <Image src="/Images/homepage.jpg"
+                        <Image src="/images/homepage.png"
                         alt="Homepage Image" 
                         width={300} 
                         height={200} />
@@ -29,7 +29,7 @@ const Landingpage = () => {
                     </div>
                     <div className="w-full nh:w-[520px] md:w-1/2 mt-6 md:mt-8 mb-[-20px] hidden lg:block"> 
                         <Image
-                            src="/Images/homepage.jpg"
+                            src="/images/homepage.png"
                             alt="Children Studying"
                             width={600}
                             height={400}
@@ -45,7 +45,7 @@ const Landingpage = () => {
                 <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0 py-6 lg:py-10 relative mt-[-90px] lg:mt-[-180px]">
                     <div className="w-full lg:w-1/3 text-center nh:mb-[-60px]">
                         <Image
-                            src="/Images/practicals.jpg"
+                            src="/images/practicals.jpg"
                             alt="Practicals"
                             width={446}
                             height={250}
@@ -58,7 +58,7 @@ const Landingpage = () => {
 
                     <div className="w-full lg:w-1/3 text-center">
                         <Image
-                            src="/Images/Q & A.jpg"
+                            src="/images/Q & A.jpg"
                             alt="Q & A Post"
                             width={446}
                             height={250}
@@ -71,7 +71,7 @@ const Landingpage = () => {
 
                     <div className="w-full lg:w-1/3 text-center">
                     <Image
-                            src="/Images/assignments.jpg"
+                            src="/images/assignments.jpg"
                             alt="Assignments"
                             width={236}
                             height={213}
