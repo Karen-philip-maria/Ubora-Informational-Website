@@ -5,18 +5,13 @@ import Image from 'next/image';
 const Landingpage = () => {
 
     return (
-        <div id='landingpage' className="flex flex-col justify-between mt-20 " >
+        <div id='landingpage' className=" flex flex-col justify-between" >
             <div className="relative bg-customBlue min-h-screen overflow-hidden lg:px-8 " style={{ fontFamily: ' "Darker Grotesque"' }}>
                 <div className="container mx-auto flex flex-col p-6 md:p-10
                  lg:flex-row items-center justify-between space-y-4 mt-6
                  lg:space-y-0 lg:space-x-4 lg:mt-28 nh:mt-4">
-                    <div className="w-full lg:w-1/2 text-left lg:text-left">
-                        <div className="mb-8 lg:hidden">
-                        <Image src="/images/homepage.png"
-                        alt="Homepage Image" 
-                        width={300} 
-                        height={200} />
-                        </div>
+                    <div className="w-fullmt-[160px] lg:w-1/2 text-left lg:text-left">
+                      
                         <h1 className="text-[#644877] text-2xl im:text-[23px] nh:text-3xl md:text-4xl lg:text-4xl text-custom-blue font-nunito font-bold leading-snug mb-6">
                           Unlocking practical <br/>knowledge
                         </h1>
@@ -41,7 +36,7 @@ const Landingpage = () => {
 
             </div>
 
-            <div className="relative mt-4 bg-white py-10 lg:py-16 z-10" >
+            <div className=" mt-[-32px]  relative bg-white py-10 lg:py-16 z-10" >
                 <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0 py-6 lg:py-10 relative mt-[-90px] lg:mt-[-180px]">
                     <div className="w-full lg:w-1/3 text-center nh:mb-[-60px]">
                         <Image

@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16 mb-5">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Image src="/navbarlogo.png" alt="Logo" width={120} height={140} className='mt-8'/>
+            <Image src="/images/navbarlogo.png" alt="Logo" width={120} height={140} className='mt-8'/>
           </div>
 
           {/* Hamburger Menu Button (only for small screens) */}
